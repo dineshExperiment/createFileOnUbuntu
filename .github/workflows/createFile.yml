@@ -10,4 +10,4 @@ jobs:
           cd myDir
           touch test.txt
           ls -l    
-      - uses: ./.github/actions.yml
+      - uses: ./.github/action.yml
