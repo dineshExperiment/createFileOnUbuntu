@@ -9,4 +9,5 @@ jobs:
           mkdir myDir
           cd myDir
           touch test.txt
-          ls -l       
+          ls -l    
+      - uses: ./.github/actions.yml
