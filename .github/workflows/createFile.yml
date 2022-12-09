@@ -1,0 +1,12 @@
+name: createFile
+on: push
+jobs: 
+  create_file:
+    runs-on:  ubuntu-latest
+    steps: 
+      - name: makeDirectoryAndFile
+        run : |
+          mkdir myDir
+          cd myDir
+          touch test.txt
+          ls -l       
